@@ -1,0 +1,32 @@
+* Introduction
+** Debug and Visibility Project
+For years, the ability for CEE, partner engineers, and developers has been
+severely impacted by the lack of debug and diagnostics tools.  This results
+in slower turnaround time to get fixes both upstream, and to customers.  It
+also impairs the ability to report issues upstream when fixes aren't 
+immediately obvious.
+
+The purpose of this project is to expand the debug and diagnostic information
+available to developers and support engineers such that they can quickly
+report, troubleshoot, and correct customer issues in the field.
+
+** Goals
+The following are goals of the project:
+
+*** Improve documentation
+*** Develop scripts and other meaningful diagnostic tools
+*** Enhance / add logs
+*** Add hooks and tracepoints to the system
+
+** References
+
+None
+
+** 
+
+* Improving documentation
+
+** Introduction
+
+This section will be
+
