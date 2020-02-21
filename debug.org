@@ -30,3 +30,39 @@ None
 
 This section will be
 
+* Scripts
+
+** Introduction
+
+This section will describe the various scripts (of all kinds) that can be used
+by CEE, QE, and any engineers to help understand what is happening in the system.
+
+** Systemtap User (uprobes)
+*** TODO explanation of userspace probes (how it can work, where it helps, etc.)
+*** TODO write some example functionality
+*** TODO probe / scripting guide?
+
+** Upstream GDB scripts
+*** TODO Enhance the upstream GDB (ex: get a packet from batches, etc)
+*** TODO Include some documentation for how to use it.
+
+** Scripts to take advantage of appctl utilities?
+*** TODO Maybe ofproto/trace from a pcap dump using tcpundump?
+
+** Other tools
+*** TODO flesh it out
+
+* Enhance / add logs
+** Introduction
+... blah
+
+
+* Hooks and tracepoints
+** Introduction
+Hooks and tracepoints are areas that are instrumented in the code to allow various
+tracing functionality to either emit events (that a subscriber can use to pull
+details), or run custom code (similar to uprobes).
+
+There is one effort ongoing upstream (see:)
+http://mails.dpdk.org/archives/dev/2020-January/154888.html
+
